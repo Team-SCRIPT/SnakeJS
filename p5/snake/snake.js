@@ -28,7 +28,7 @@ function Snake()
 			var d=dist(this.x,this.y,pos.x,pos.y);
 			if(d<1)
 			{
-				window.alert('You lose in S.C.R.I.P.T's Snake Game!');
+				window.alert('You lose in S.C.R.I.P.T\'s Snake Game!');
 				console.log('starting over');
 				this.total=0;
 				this.tail=[];
